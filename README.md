@@ -28,3 +28,14 @@ elif marks>= 30:
 
 else:
     print("F")
+
+
+
+#relational operator
+
+print(30>20)
+print(30<20)
+print(30>=20)
+print(30<=20)
+print(30==20)
+print(30!=20)
