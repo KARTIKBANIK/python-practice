@@ -1,0 +1,8 @@
+#FIND GCD & LCM......
+
+import math
+
+a = int(input('Enter First Number: '))
+b = int(input('Enter Second Number: '))
+lcm = (a*b)/math.gcd(a,b)
+print(lcm)
