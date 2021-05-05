@@ -1,0 +1,7 @@
+#DEGREE TO REDIAN
+
+import math
+degree = float(input('Enter an angle in degree: '))
+redian = (degree*math.pi)/180
+
+print('The angle in redian is: ', redian)
