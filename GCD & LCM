@@ -6,3 +6,9 @@ a = int(input('Enter First Number: '))
 b = int(input('Enter Second Number: '))
 lcm = int((a*b)/math.gcd(a,b))
 print(lcm)
+
+
+#FIND GCD & LCM......
+
+import numpy as np
+np.lcm(60,700)
