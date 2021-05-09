@@ -1,6 +1,7 @@
 #input numbers in a list and find the biggest & smallest number on this list..
 
 
+#INPUT NUMBER IN LIST....
 
 mylist=[]
 for i in range(10):
@@ -9,15 +10,30 @@ for i in range(10):
     mylist.append(int(x))
 print("All numbers is: ",mylist)
 
+
+
+
+#FIND BIGGEST AND SMALLEST NUMBEER....
+
 bigger=mylist[0]
 smaller=mylist[0]
-for number in mylist:
-    
+for number in mylist:    
     if number>bigger:
         bigger=number
     if number<smaller:
-        smaller=number
-        
+        smaller=number        
 print('The biggest number is: ',bigger)
 print('The smallest number is: ',smaller)
+
+
+
+
+#AVERAGE.....
+
+sum = 0
+for number in mylist:
+    sum = sum + number
+average = number / len(mylist)
+print('The average is : ',average)
         
+
