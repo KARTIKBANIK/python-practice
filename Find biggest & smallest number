@@ -1,0 +1,23 @@
+#input numbers in a list and find the biggest & smallest number on this list..
+
+
+
+mylist=[]
+for i in range(10):
+    print('Enter the',i+1,'th number: ',end="")
+    x = input()
+    mylist.append(int(x))
+print("All numbers is: ",mylist)
+
+bigger=mylist[0]
+smaller=mylist[0]
+for number in mylist:
+    
+    if number>bigger:
+        bigger=number
+    if number<smaller:
+        smaller=number
+        
+print('The biggest number is: ',bigger)
+print('The smallest number is: ',smaller)
+        
